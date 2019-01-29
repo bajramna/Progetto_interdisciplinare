@@ -1,0 +1,52 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage[italian]{varioref,babel}
+\usepackage[colorlinks]{hyperref}
+
+\hypersetup{linkcolor=red, urlcolor=green, pdfauthor=Nazif Bajramoski} 
+
+\usepackage{lipsum}
+
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+
+\usepackage{marginnote}
+\usepackage{graphicx}
+\usepackage{tabularx}
+
+
+\lhead{}
+\chead{}
+\rhead{}
+
+\lfoot{}
+\cfoot{}
+\rfoot{\thepage}
+% Piè di pagina.
+
+\renewcommand{\headrulewidth}{0 pt}
+\renewcommand{\footrulewidth}{0.3pt}
+% Comandi che permettono di inserire la riga che separa l'intestazione e il piè di pagina dal testo con una riga (spessa 0.3 punti).
+
+\title{Progetto interdisciplinare}
+\author{Nazif Bajramoski, Benjamin Travaglin, Christiam Gharib, Jonas Adam}
+\date{\today}
+% Indicazioni per il titolo, l'autore e la data.
+
+\begin{document}
+
+\maketitle
+
+\newpage
+
+\tableofcontents
+
+\newpage
+
+\input{Capitoli/capitolo1.tex}
+\input{Capitoli/capitolo2.tex}
+\input{Capitoli/capitolo3.tex}
+\input{Capitoli/capitolo4.tex}
+\input{Capitoli/Capitolo5.tex}
+
+\end{document}
